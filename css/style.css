@@ -2,7 +2,7 @@ html {
     margin: 0;
     padding: 0;
     border: 0;
-<<<<<<< HEAD
+
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #838994;
@@ -15,11 +15,9 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-=======
     font-size: 100%;
     vertical-align: baseline;
     box-sizing: border-box;
->>>>>>> feea36bca9ab1a2e5b927181ece0dcd90e22e329
 }
 
 body {
@@ -45,8 +43,6 @@ ul {
     list-style: none;
 }
 
-<<<<<<< HEAD
-=======
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -55,7 +51,6 @@ ul {
     z-index: 9999;
 }
 
->>>>>>> feea36bca9ab1a2e5b927181ece0dcd90e22e329
 /**
  * Navigation Section
  */
@@ -66,7 +61,6 @@ ul {
     border-bottom: 1px solid #DDD;
     z-index: 9999;
 }
-<<<<<<< HEAD
 
 .top-navigation > .content {
     height: 4.375rem;
@@ -90,7 +84,6 @@ ul {
     margin-left: 25px;
 }
 
-=======
 .top-navigation > .content {
     height: 4.375rem;
 }
@@ -107,15 +100,12 @@ ul {
     display: inline-block;
     margin-left: 1.563rem;
 }
->>>>>>> feea36bca9ab1a2e5b927181ece0dcd90e22e329
+
 .top-navigation .links li.active {
     color: #4c5058;
     font-weight: 500;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> feea36bca9ab1a2e5b927181ece0dcd90e22e329
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
@@ -198,20 +188,14 @@ button:hover {
     margin-top: 7.875rem;
     padding: none;
     color: #1d1e21;
-<<<<<<< HEAD
     /*text-align: center;*/
-=======
     text-align: center;
->>>>>>> feea36bca9ab1a2e5b927181ece0dcd90e22e329
 }
 
 .cases h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
-<<<<<<< HEAD
     text-align: center;
-=======
->>>>>>> feea36bca9ab1a2e5b927181ece0dcd90e22e329
     font-weight: 300;
 }
 
@@ -320,18 +304,4 @@ button:hover {
 @keyframes bounce {
     0%, 100% {margin-top: 0px;}
     50% {margin-top: 2rem;}
-<<<<<<< HEAD
 }
-=======
-}
-
-/*.navbar-default .navbar-nav li.active {
-    color: #4c5058;
-    font-weight: 500;
-}
-*/
-/*.navbar-nav li:nth-child(1):hover, .navbar-nav li:nth-child(2):hover, .navbar-nav li:nth-child(3):hover, .navbar-nav li:nth-child(4):hover {
-	color: white;
-	transition: all 1s;
-}*/
->>>>>>> feea36bca9ab1a2e5b927181ece0dcd90e22e329
