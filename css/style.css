@@ -51,9 +51,6 @@ ul {
     z-index: 9999;
 }
 
-/**
- * Navigation Section
- */
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -62,6 +59,7 @@ ul {
     z-index: 9999;
 }
 
+/*WHY NOT INCLUDE THIS ABOVE??*/
 .top-navigation > .content {
     height: 4.375rem;
 }
@@ -71,7 +69,7 @@ ul {
 }
 
 .top-navigation .links {
-    float: right;
+    float: center;
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
@@ -84,9 +82,6 @@ ul {
     margin-left: 25px;
 }
 
-.top-navigation > .content {
-    height: 4.375rem;
-}
 .top-navigation .logo {
     height: 4.375rem;
 }
@@ -96,6 +91,7 @@ ul {
     font-size: 1.04rem;
     margin-top: 1.7rem;
 }
+
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
@@ -111,9 +107,6 @@ ul {
     color: #333333;
 }
 
-/**
- * Introduction Section
- */
 .introduction {
     background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
     background-position: center;
@@ -178,6 +171,7 @@ button:hover {
 /**
  * The Three Case Images
  */
+
 .cases {
     background-color: #fff;
     overflow: hidden;
@@ -192,6 +186,16 @@ button:hover {
     text-align: center;
 }
 
+{
+    display: block;
+}
+
+/*.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    float:left;
+}*/
+
 .cases h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
@@ -201,7 +205,9 @@ button:hover {
 
 .cases .devices > li {
     width: 33.3333333%;
+    display: inline-block;
     float:left;
+    
 }
 
 .cases .devices h3 {
@@ -215,9 +221,6 @@ button:hover {
     font-size: 1.313rem;
 }
 
-{
-    display: block;
-}
 
 /**
  * Footer
