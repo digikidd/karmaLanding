@@ -14,7 +14,7 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
     font-size: 100%;
     vertical-align: baseline;
     box-sizing: border-box;
@@ -207,6 +207,7 @@ button:hover {
     width: 33.3333333%;
     display: inline-block;
     float:left;
+    text-align: center;
     
 }
 
@@ -279,10 +280,11 @@ button:hover {
     color: #838994;
 }
 
+
 /**
  * Responsive Design
  */
-@media (min-width: 48rem) {
+/*@media (min-width: 48rem) {
     .content {
         width: 46rem;
     }
@@ -296,7 +298,26 @@ button:hover {
     .content {
         width: 60%;
     }
+    .cases .devices > li {
+        width: 100%;
+    }
 }
+*/
+/*/ Extra small devices (phones, less than 768px) /
+/ No media query since this is the default in Bootstrap /
+
+/ Small devices (tablets, 768px and up) /*/
+@media (max-width: 768px) {
+    .cases .devices >li {
+        width: 100%;
+    }
+}
+
+/*/ Medium devices (desktops, 992px and up) /*/
+@media (min-width: 992px) { ... }
+
+/*/ Large devices (large desktops, 1200px and up) /*/
+@media (min-width: 1200px) { ... }
 
 /* Chrome, Safari, Opera */ 
 @-webkit-keyframes bounce {
