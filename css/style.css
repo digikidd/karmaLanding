@@ -267,8 +267,9 @@ button:hover {
     text-align: center;
 }
 
-.container {
-    text-align: center;
+/*This is to fix the ul positioning*/
+.icons {
+    padding-left: 0;
 }
 
 /*/ Extra small devices (phones, less than 768px) /
