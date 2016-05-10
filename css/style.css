@@ -29,6 +29,7 @@ body {
 /*div {
 	border: 1px solid Chocolate;
 }*/
+
 hr {
     display: block;
 }
@@ -232,6 +233,7 @@ button:hover {
     border: 0;
     border-top: 1px solid #eaebec;
     margin: 1.313rem 0;
+    max-width: 10px;
 }
 
 .social .icons > li {
