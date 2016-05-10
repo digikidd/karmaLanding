@@ -234,6 +234,10 @@ button:hover {
     text-align: center;
 }
 
+.content {
+    text-align: center;
+}
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -262,7 +266,6 @@ button:hover {
 
 .social .icons > li:hover {
     cursor: pointer;
-    text-align: center;
 }
 
 .social .twitter {
