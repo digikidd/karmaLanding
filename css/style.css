@@ -234,10 +234,6 @@ button:hover {
     text-align: center;
 }
 
-.content {
-    text-align: center;
-}
-
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -260,7 +256,7 @@ button:hover {
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
-    padding: 0.625rem 0;
+    /*padding: 0.625rem 0;*/
     text-align: center;
 }
 
