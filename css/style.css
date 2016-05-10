@@ -201,14 +201,13 @@ button:hover {
 .cases .devices h3 {
     font-weight: 400;
     font-size: 1.563rem;
-    margin: 2.0rem 0px 1.875rem;
+    margin: 2.5rem 0px 1.875rem;
 }
 
 .cases .devices p {
     font-weight: 300;
     font-size: 1.313rem;
 }
-
 
 /**
  * Footer
@@ -243,7 +242,6 @@ button:hover {
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
-    text-align: center;
 }
 
 .social .icons > li:hover {
@@ -266,6 +264,10 @@ button:hover {
     font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
+    text-align: center;
+}
+
+.container {
     text-align: center;
 }
 
