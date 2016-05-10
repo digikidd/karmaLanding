@@ -201,7 +201,7 @@ button:hover {
 .cases .devices h3 {
     font-weight: 400;
     font-size: 1.563rem;
-    margin: 2.5rem 0px 1.875rem;
+    margin: 2.0rem 0px 1.875rem;
 }
 
 .cases .devices p {
@@ -233,7 +233,6 @@ button:hover {
     border: 0;
     border-top: 1px solid #eaebec;
     margin: 1.313rem 0;
-    max-width: 10px;
 }
 
 .social .icons > li {
