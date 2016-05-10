@@ -133,6 +133,7 @@ ul {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
+
 /**
  * The buttons
  */
@@ -191,12 +192,6 @@ button:hover {
     display: block;
 }
 
-/*.cases .devices {
-    width: 33.3333333%;
-    display: inline-block;
-    float:left;
-}*/
-
 .cases h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
@@ -230,7 +225,7 @@ button:hover {
 .social {
     background-color: #fff;
     overflow: auto;
-    padding-bottom: 9.375rem;
+    /*padding-bottom: 9.375rem;*/
     text-align: center;
 }
 
