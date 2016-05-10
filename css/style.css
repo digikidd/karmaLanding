@@ -262,6 +262,7 @@ button:hover {
 
 .social .icons > li:hover {
     cursor: pointer;
+    text-align: center;
 }
 
 .social .twitter {
