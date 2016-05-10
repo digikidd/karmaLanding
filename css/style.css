@@ -29,7 +29,9 @@ body {
 /*div {
 	border: 1px solid Chocolate;
 }*/
-
+hr {
+    display: block;
+}
 .content {
     padding: 0 0.938rem;
     margin: 0 auto;
@@ -231,6 +233,7 @@ button:hover {
     border-top: 1px solid #eaebec;
     margin: 1.313rem 0;
 }
+
 .social .icons > li {
     border-radius: 1.25rem;
     width: 2.5rem;
