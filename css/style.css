@@ -180,10 +180,6 @@ button:hover {
     text-align: center;
 }
 
-/*{
-    display: block;
-}*/
-
 .cases h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
@@ -217,13 +213,13 @@ button:hover {
 .social {
     background-color: #fff;
     overflow: auto;
-    /*padding-bottom: 9.375rem;*/
+    padding-bottom: 9.375rem;
     text-align: center;
 }
 
 .fa {
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 16px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
